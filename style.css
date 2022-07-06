@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,100&family=Montserrat:wght@400;800&display=swap');
+
+body{
+    background-color: goldenrod;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    border-radius: 15px;
+    top: 0px;
+    padding: 10px;
+    background-color: rgb(0, 127, 131);
+    text-align: center;
+    color: white;
+  }
+#carousel{
+    position: relative;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 100px;
+    width: 100%;
+    height: 600px;
+    position: cover;
+    margin-right: 10px;
+    background: #8C8;
+  
+}
+#pre{
+margin-left: 50%;
+background-color: rgb(0, 127, 131);
+color: wheat;
+}
+#nex{
+
+    background-color: rgb(0, 127, 131);
+    color: wheat;
+    }
+.reviewbox{
+    width: 50%;
+    background-color: aliceblue;
+    opacity: 70%;
+    border-radius: 10px;
+}
+.CartButton{
+    background-color: rgb(0, 127, 131);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.submitform{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    color:rgb(0, 127, 131);
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+.Prices{
+    margin-top: -20px;
+    font-size: 25px;  
+    animation-name: rainbow;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+@keyframes rainbow {
+  0% {
+    color: rgb(0, 127, 131);
+  }
+  50% {
+   color: rgb(109, 0, 0);
+  }
+}
+.ReviewSection{
+    width: 70%;
+    border-radius: 15px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: 10px;
+    border: 5px solid rgb(0, 127, 131);
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),
+}
+#remove{
+background-color: rgb(0, 127, 131);
+color: white;
+border: none;
+border-radius: 15px;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-family: 'Kanit', sans-serif;
+}
+#student{
+    background-color: rgb(113, 0, 91);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    }
+ #total{
+    color: rgb(0, 96, 99);
+    font-size: 25px;
+ }
+ #lastprice2{
+    color: rgb(113, 0, 91);
+    font-size: 25px;  
+ }
+ #Shop1{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+ }
+ #Shop2{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+ }
+ #Shop3{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+ }
